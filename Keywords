@@ -4,3 +4,16 @@ end
 sep
 slice
 list
+in 
+not in
+
+
+------------------------------------------
+//List Methods
+something.index
+something.append
+something.insert
+something.remove
+something.sort()
+something.sort(reverse=True)
+something.sort(key=str.lower)
