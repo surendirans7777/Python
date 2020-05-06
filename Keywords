@@ -17,3 +17,20 @@ something.remove
 something.sort()
 something.sort(reverse=True)
 something.sort(key=str.lower)
+-------------------------------------------
+
+//Dictionary//////////////////////REFER ALWAYS
+list(something.keys())
+list(something.values())
+list(something.items())
+
+
+or even using loop
+something.keys
+something.values
+something.items
+
+
+
+
+something.get('variable/index', 'put something you want to assign and return')
