@@ -9,6 +9,10 @@ not in
 ''
 ""
 """   """
+something.lower()
+something.upper()
+something.islower()
+something.isupper()
 
 
 
