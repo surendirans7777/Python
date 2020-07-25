@@ -1,0 +1,12 @@
+import re
+
+message = 'Call me 123-456-7890 tomorrow or at 234-567-8901'
+
+phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+
+print('First occurence of phone number')
+matchObject = phoneNumRegex.search(message)
+print(matchObject.group())
+
+print('All phone numbers')
+print(phoneNumRegex.findall(message))
