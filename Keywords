@@ -94,3 +94,8 @@ something.replace(old parameter,new paramater)
 
 pyperclip() module //// Nice refer it
 
+----------------------------------------------------------------------------------
+
+import sys
+print(sys.argv) -----> used for command line argument
+
