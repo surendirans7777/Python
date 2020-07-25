@@ -15,6 +15,48 @@ something.islower()
 something.isupper()
 
 
+------------------------------------------
+//List Methods
+something.index
+something.append
+something.insert
+something.remove
+something.sort()
+something.sort(reverse=True)
+something.sort(key=str.lower)
+-------------------------------------------
+
+//Dictionary//////////////////////REFER ALWAYS
+list(something.keys())
+list(something.values())
+list(something.items())
+
+
+or even using loop
+something.keys
+something.values
+something.items
+
+
+
+
+something.get('variable/index', 'put something you want to assign and return')
+
+
+
+pprint module ////refer
+------------------------------------------------------
+
+
+
+///////Strings////////
+
+something.lower()
+something.upper()
+something.islower()
+something.isupper()
+
+
 25/7 : 
 something.isalpha()
 something.isalnum()
@@ -52,37 +94,3 @@ something.replace(old parameter,new paramater)
 
 pyperclip() module //// Nice refer it
 
-
-
-
-------------------------------------------
-//List Methods
-something.index
-something.append
-something.insert
-something.remove
-something.sort()
-something.sort(reverse=True)
-something.sort(key=str.lower)
--------------------------------------------
-
-//Dictionary//////////////////////REFER ALWAYS
-list(something.keys())
-list(something.values())
-list(something.items())
-
-
-or even using loop
-something.keys
-something.values
-something.items
-
-
-
-
-something.get('variable/index', 'put something you want to assign and return')
-
-
-
-pprint module ////refer
-------------------------------------------------------
