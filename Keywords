@@ -15,6 +15,45 @@ something.islower()
 something.isupper()
 
 
+25/7 : 
+something.isalpha()
+something.isalnum()
+something.isdecimal()
+something.isspace()
+something.istitle()
+
+
+
+something.startswith(parameter)
+something.endswith(parameter)
+
+
+join() --- Refer it
+
+something.split()
+something.split(parameter)
+
+
+something.rjust(value)
+something.rjust(value,paramter)
+something.ljust(value)
+something.ljust(value,paramter)
+something.center(value)
+something.center(value,paramter)
+
+
+
+something.strip()  // Remove whitespace
+something.lstrip()
+something.rstrip()
+
+
+something.replace(old parameter,new paramater)
+
+pyperclip() module //// Nice refer it
+
+
+
 
 ------------------------------------------
 //List Methods
