@@ -99,3 +99,53 @@ pyperclip() module //// Nice refer it
 import sys
 print(sys.argv) -----> used for command line argument
 
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+////////Files/////////////
+
+Files:
+------
+import os
+os.path.join('folder1','folder2','folder3',file.png')
+
+------>It will return the path for both win,linux os
+------>\ in win and / in linux and mac
+------>'folder1\\folder2\\folder3\\file.png'
+
+
+
+
+os.sep()  
+os.getcwd() 
+os.chdir('xxxx') 
+
+
+Two types of file paths:
+------------------------
+1. Absolute file path
+(Always begin with root folder)
+2. Relative file path
+(Do not begin with root folder)
+
+
+
+os.path.abspath('xxxx')  ///This is an easy way to convert relative file path into absolute fil epath
+os.path.isabs('xxxx')
+os.path.relpath('xxxxx','xxxx')
+os.path.dirname('xxxx')
+os.path.basename('xxxx')
+os.path.exists('xxxxx')
+os.path.isdir('xxxx')
+os.path.getsize('xxxx')
+os.listdir('xxxx')
+os.makedirs('xxxx')
+
+
+
+
